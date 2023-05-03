@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import HOC from "./HOC.js";
+
 const Todoslist = ({ data }) => {
   const resultData = data.map((todoItem, index) => {
     return (
