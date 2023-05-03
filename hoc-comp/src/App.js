@@ -1,16 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Userslist } from "./Userslist.js";
-import { Todoslist } from "./Todoslist.js";
+import SerachUsers from "./Userslist.js";
+import SearchTodos from "./Todoslist.js";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <Userslist />
+        <SerachUsers />
       </div>
       <div>
-        <Todoslist />
+        <SearchTodos />
       </div>
     </div>
   );
